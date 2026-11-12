@@ -20,6 +20,30 @@ defaults:
     values:
       layout: post
       comments: false
+  - scope:
+      path: "_posts/2026-11-02-hello-comicfire.md"
+      type: posts
+    values:
+      author:
+        name: Mithun Shanbhag
+  - scope:
+      path: "_posts/2026-11-04-the-first-wow-moment.md"
+      type: posts
+    values:
+      author:
+        name: Mithun Shanbhag
+  - scope:
+      path: "_posts/2026-11-09-befores-and-afters.md"
+      type: posts
+    values:
+      author:
+        name: Mithun Shanbhag
+  - scope:
+      path: "_posts/2026-11-11-that-wasnt-so-bad-after-all.md"
+      type: posts
+    values:
+      author:
+        name: Mithun Shanbhag
 exclude:
   - README.md
   - LICENSE

@@ -1,0 +1,30 @@
+theme: jekyll-theme-minimal
+repository: mithunshanbhag/comicfire.github.io
+title: ComicFire Blog
+description: Ideas and practical guides for telling brand stories with comics.
+url: https://blog.comicfire.com
+baseurl: ""
+logo: https://assets.comicfire.com/assets/logos/web/comicfire-picturemark-256.png
+logo_webp: https://assets.comicfire.com/assets/logos/web/comicfire-picturemark-256.webp
+author:
+  name: ComicFire
+plugins:
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-seo-tag
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - run-local.ps1
+  - vendor
+  - output

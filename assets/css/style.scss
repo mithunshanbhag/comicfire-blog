@@ -1,0 +1,25 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+.profile-logo {
+  display: block;
+  margin-top: 20px;
+}
+
+.profile-logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media print, screen and (min-width: 961px) {
+  .wrapper {
+    width: 1200px;
+  }
+
+  section {
+    width: 840px;
+  }
+}

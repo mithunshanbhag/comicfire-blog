@@ -5,7 +5,7 @@ Local setup only: GitHub Pages and DNS have not been activated by this setup.
 
 The theme configuration, layouts and desktop CSS originate from
 [Mithun's personal blog](https://github.com/mithunshanbhag/mithunshanbhag.github.io/tree/f0d17f72d91d0f26060010da2e53fbb825aca7ba).
-The copied code retains its MIT license notice. Personal content and tracking configuration are not included.
+The copied code retains its MIT license notice. The four ComicFire articles dated November 2–11, 2026, and their referenced images are copied unchanged from the personal blog. Tracking configuration is not included.
 
 ## Install and preview
 
@@ -47,6 +47,8 @@ description: "A short summary for readers and search results."
 ---
 ```
 
+The imported posts retain their original Markdown and image files. File-specific author defaults in `_config.yml` credit Mithun Shanbhag in the byline, feed, and SEO metadata; other posts fall back to the site author unless they specify their own author.
+
 Write Markdown below the front matter. Posts use Jekyll's default dated URLs.
 Start an unpublished article in `_drafts/`; use `markdown-example.md` as a guide.
 To publish later, move the finished draft to `_posts/` with its publication date.
@@ -67,7 +69,7 @@ in this repository; the blog has no dependency on the application's deployment w
 wsl -d Ubuntu -- bundle exec jekyll build
 ```
 
-For native Ruby omit `wsl -d Ubuntu --`. Check `_site/index.html` for the empty state,
+For native Ruby omit `wsl -d Ubuntu --`. Check `_site/index.html` for the four imported articles in newest-first order,
 and `_site/feed.xml` and `_site/sitemap.xml` for the production hostname. A normal build
 must exclude the draft and this README. Use the draft preview to review article formatting
 at desktop and mobile widths. Production URL generation uses `https://blog.comicfire.com`;

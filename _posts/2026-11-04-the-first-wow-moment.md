@@ -2,6 +2,17 @@
 layout: post
 title:  That first wow moment
 comments: false
+description: "Help customers visualize their first wow moment with your brand through illustrated stories that capture amazement, anticipation, and pride."
+author:
+  name: Mithun Shanbhag
+  twitter: MithunShanbhag
+image:
+  path: /images/wow-moment-1.jpg
+  width: 1920
+  height: 1080
+  alt: "Aquarium comic illustrating a customer's first wow moment"
+twitter:
+  card: summary_large_image
 ---
 
 As business and brand owners, we all strive to create that first "wow moment" for our customers: an unboxing experience that blows their mind and hooks them for life.

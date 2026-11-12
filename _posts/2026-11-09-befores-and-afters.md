@@ -2,6 +2,17 @@
 layout: post
 title:  Befores and afters
 comments: false
+description: "Tell a compelling brand story with a simple before-and-after comic. See how a fictional record store turns a customer's mood around."
+author:
+  name: Mithun Shanbhag
+  twitter: MithunShanbhag
+image:
+  path: /images/befores-and-afters-5.jpg
+  width: 1200
+  height: 630
+  alt: "Preview of a GrooveNest record store comic showing a customer's mood improve"
+twitter:
+  card: summary_large_image
 ---
 
 The simplest way for a brand to tell a story is to show a `before` and an opposite `after`, with the brand effecting that change.

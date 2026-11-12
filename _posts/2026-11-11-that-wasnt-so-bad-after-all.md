@@ -2,6 +2,17 @@
 layout: post
 title:  That wasn't so bad after all
 comments: false
+description: "Reassure hesitant customers through visual storytelling. Follow a fictional home-repair brand as it turns anxiety into relief and trust."
+author:
+  name: Mithun Shanbhag
+  twitter: MithunShanbhag
+image:
+  path: /images/that-wasnt-so-bad-5.jpg
+  width: 1200
+  height: 630
+  alt: "Preview of a Hearth Help home-repair comic turning customer anxiety into relief"
+twitter:
+  card: summary_large_image
 ---
 
 Most brand stories are about exceeding customers' expectations and delighting them.

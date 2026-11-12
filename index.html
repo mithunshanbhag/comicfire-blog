@@ -1,0 +1,15 @@
+---
+layout: default
+title: Blog
+---
+<h1>Latest blog posts</h1>
+{% assign has_visible_posts = false %}
+{% for post in site.posts %}
+  {% unless post.unlisted %}
+    {% assign has_visible_posts = true %}
+    <p>[{{ post.date | date_to_string }}] <a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
+  {% endunless %}
+{% endfor %}
+{% unless has_visible_posts %}
+  <p>No posts yet. Check back soon.</p>
+{% endunless %}
